@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "5tabs",
+    "version": "1.0",
+    "description": "Limits the number of open tabs to 5",
+    
+    "background": {
+      "service_worker": "background.js"
+    },
+    "permissions": [
+      "tabs"
+    ]
+  }
+  
